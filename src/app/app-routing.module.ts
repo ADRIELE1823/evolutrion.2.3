@@ -7,6 +7,7 @@ import { CabecalhoComponent } from './componentes/cabecalho/cabecalho.component'
 import { LogarComponent } from './componentes/logar/logar.component';
 import { AboutMeComponent } from './componentes/about-me/about-me.component';
 import { CadastroComponent } from './componentes/cadastro/cadastro.component';
+import { ContatoComponent } from './componentes/contato/contato.component';
 
 const routes: Routes = [
   { path: '', component: WelcomeComponent},
@@ -15,8 +16,8 @@ const routes: Routes = [
  { path: 'cabecalho', component:CabecalhoComponent},
  { path: 'logar', component:LogarComponent}, 
  { path:'about-me', component:AboutMeComponent},
- {path:'cadastro', component:CadastroComponent}
-  
+ {path:'cadastro', component:CadastroComponent},
+{path:'contato', component:ContatoComponent}
 ];
 
 @NgModule({
