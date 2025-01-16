@@ -221,7 +221,7 @@ aside .sidebar a.active:before{
 
 aside .sidebar a.active span{
     color: var(--color-primary);
-    margin-left: calc(1rem -3px);
+    margin-left: calc(1rem, -3px);
 }
 
 aside .sidebar a:hover{
