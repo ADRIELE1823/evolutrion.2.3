@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { PainelComponent } from './componentes/painel/painel.component';
+import { PainelComponent } from './componentes/painel/painel/painel/painel.component';
 import { PrincipalComponent } from './componentes/principal/principal.component';
 import { RouterModule } from '@angular/router';
 import { WelcomeComponent } from './componentes/welcome/welcome.component';
